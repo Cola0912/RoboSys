@@ -10,7 +10,13 @@ def tonum(s):
 
 ans = 0
 for line in sys.stdin:
+<<<<<<< HEAD
     line = line.rstrip()
     ans += tonum(line)
 
 print(ans)
+=======
+    ans += tonum(line)
+
+print(ans)
+>>>>>>> 2a155f96479ff0f3056f5058cbcf0d48c80abafe
