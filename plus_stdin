@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyright: 2022 Shusei Aida email:0912cocacola@gmail.com
+# SPDX-License-Identifier: GPL-3.0
 
 import sys
 
