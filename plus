@@ -6,17 +6,15 @@ import sys
 
 
 def tonum(s):
-    try:
-        ans += init(line)
-    except:
-        ans += float(line)
+      try:
+          return int(s)
+      except:
+          return float(s)
+  　
 
-ans = 0
-for line in sys.stdin:
-   	 line = line.rstrip()
-   	 ans += tonum(line)
-
-print(ans)
-ans += tonum(line)
-
-print(ans)
+  ans = 0 
+  for line in sys.stdin:
+      line = line.rstrip()
+      ans += tonum(line)
+  　
+  print(ans)
