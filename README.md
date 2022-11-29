@@ -10,27 +10,34 @@
   git clone https://github.com/Cola0912/RoboSys2022.git
   cd RoboSys2022
 ```
+
 # plusコマンド
+
 標準入力から読み込んだ数字を足すことができるコマンド。
+
 * 使用例
-  $ seq 10 | ./plus
+```bash
+  seq 10 | ./plus
+```
 * 出力結果
-  $ anser : 55
+  55
+
 ### 必要なソフトウェア
 * Python
   * テスト済み: 3.7 ~ 3.10
+
+
 # pokedexコマンド
   ポケモンの名前もしくは図鑑番号の指定で、当該ポケモンの情報を表示します。
-* 使用例
 
+* 使用例
 ```bash
   ./pokedex 25
 ```
-
 * 出力結果
-  * No. 25
-  * name:    pikachu
-  * types:   electric
+  No. 25
+  name:    pikachu
+  types:   electric
 
 ### 必要なソフトウェア
 * Python
