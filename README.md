@@ -5,7 +5,7 @@
 
 講義の中で作ったものを筆頭に思いついたコマンドを追加していく。
 
-### インストールと使い方
+### 使う準備
 ```bash
   git clone https://github.com/Cola0912/RoboSys2022.git
   cd RoboSys2022
