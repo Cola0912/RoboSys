@@ -17,7 +17,7 @@
 
 * 使用例
 ```bash
-  seq 10 | ./plus
+  $ seq 10 | ./plus
 ```
 * 出力結果
   * anser : 55
