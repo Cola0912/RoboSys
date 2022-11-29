@@ -6,11 +6,11 @@
 講義の中で作ったものを筆頭に思いついたコマンドを追加していく。
 
 ### インストールと使い方
+
 ```bash
   git clone https://github.com/Cola0912/RoboSys2022.git
   cd RoboSys2022
 ```
-
 
 # plusコマンド
 
@@ -31,9 +31,11 @@
   ポケモンの名前もしくは図鑑番号の指定で、当該ポケモンの情報を表示します。
 
 * 使用例
+
 ```bash
   ./pokedex 25
 ```
+
 * 出力結果
   * No. 25
   * name:    pikachu
