@@ -1,0 +1,21 @@
+#!/usr/bin/python3
+# SPDX-FileCopyright: 2022 Shusei Aida email:0912cocacola@gmail.com
+# SPDX-License-Identifier: BSD-3-Clause
+
+import requests
+import sys
+
+url = "https://pokeapi.co/api/v2/pokemon/"
+#print(url) #確認用
+url += str(sys.argv[1]) + "/"
+#print(url)	#確認用
+r = requests.get(url, timeout=5)
+r = r.json()
+
+name  = r['name']
+id    = r['id']
+types = r['types'][0]['type']['name']
+
+print('No.',id)
+print('name:	',name)
+print('types:	',types)
