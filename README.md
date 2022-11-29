@@ -1,4 +1,4 @@
-# RoboSys
+# RoboSys2022_commandpack
 このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が許可されます。
 
 # plusコマンド
