@@ -20,6 +20,7 @@
   seq 10 | ./plus
 ```
 * 出力結果
+  
   55
 
 ### 必要なソフトウェア
@@ -39,7 +40,7 @@
   No. 25
 
   name:    pikachu
-  
+
   types:   electric
 
 ### 必要なソフトウェア
