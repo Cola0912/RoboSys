@@ -35,8 +35,11 @@
   ./pokedex 25
 ```
 * 出力結果
+  
   No. 25
+
   name:    pikachu
+  
   types:   electric
 
 ### 必要なソフトウェア
