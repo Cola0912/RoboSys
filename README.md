@@ -10,6 +10,9 @@
   git clone https://github.com/Cola0912/RoboSys2022.git
   cd RoboSys2022
 ```
+### 必要なソフトウェア
+* Python
+  * テスト済み: 3.7 ~ 3.10
 
 # plusコマンド
 
@@ -22,10 +25,6 @@
 * 出力結果
   
   55
-
-### 必要なソフトウェア
-* Python
-  * テスト済み: 3.7 ~ 3.10
 
 
 # pokedexコマンド
@@ -42,10 +41,6 @@
   name:    pikachu
 
   types:   electric
-
-### 必要なソフトウェア
-* Python
-  * テスト済み: 3.7 ~ 3.10
 
 
 ## Open API
