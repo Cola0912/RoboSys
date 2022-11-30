@@ -22,5 +22,8 @@ out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
+out=$(./pokedex 25)
+#[ "${out}" =  ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 exit $res
