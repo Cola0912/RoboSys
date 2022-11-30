@@ -23,14 +23,29 @@ out=$(echo | ./plus) #空文字
 [ "${out}" = "" ] || ng ${LINENO}
 
 ### pokedex test
-out=$(./pokedex 25)
+out=$(./pokedex 25) ##図鑑番号25参照
 a='No. 25
 name:	 pikachu
 types:	 electric'
+
 echo "$out"
 echo "~~~~~~~~~~~~~~~"
 echo "$a"
 [ "${out}" = "$a" ] || ng ${LINENO}
+
+out=$(./pokedex pikachu) ##ポケモン名「pikachu」参照
+a='No. 25
+name:	 pikachu
+types:	 electric'
+
+echo "$out"
+echo "~~~~~~~~~~~~~~~"
+echo "$a"
+[ "${out}" = "$a" ] || ng ${LINENO}
+
+out=$(./pokedex) #空文字
+[ "$?" = 1 ]      || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
